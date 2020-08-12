@@ -15,7 +15,7 @@ else
 fi
 
 youtubeDlCommand="$YOUTUBE_DL_PATH --no-check-certificate -ge --get-format $*"
-vlcCommand="$vlcPath"
+vlcCommand="$vlcPath --video-wallpaper"
 
 videoTitle=""
 videoURL=""
